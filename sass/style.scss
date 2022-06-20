@@ -1,0 +1,58 @@
+@import './resets';
+body {
+    font-family: sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: .75rem;
+    margin-bottom: 20px;
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+img {
+    display: block;
+}
+
+.images {
+    display: grid;
+    place-items: center;
+}
+
+.divider {
+    margin-top: 1rem;
+}
+
+.dice_bg {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: .7rem;
+    position: relative;
+    top: 25px;
+}
+
+.id {
+    color: hsl(150, 100%, 66%);
+    font-weight: 800;
+}
+
+.dice {
+    background-color: hsl(150, 100%, 66%);
+    width: 20px;
+    cursor: pointer;
+}
+
+@media(min-width:767px) {
+    .container {
+        padding: 1rem;
+    }
+}
